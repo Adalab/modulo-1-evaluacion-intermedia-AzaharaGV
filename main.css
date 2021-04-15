@@ -26,21 +26,26 @@
   box-sizing: content-box;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 13px;
+}
+
+.item {
 }
 
 main {
   background-color: #3cdbc0;
   box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
   width: 100vh;
-  margin-top: 13px;
+  margin-top: 50px;
 }
-h1 {
+
+.text {
   font-size: 30px;
   color: #ffffff;
   box-sizing: content-box;
   display: flex;
   justify-content: center;
-  display: block;
-  align-items: center;
+  width: 100vh;
+  background-position: 50%, 50%;
 }
