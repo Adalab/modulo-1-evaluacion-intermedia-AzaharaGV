@@ -25,19 +25,22 @@
   font-size: 16px;
   box-sizing: content-box;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .item {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 main {
   background-color: #3cdbc0;
-  box-sizing: content-box;
   display: flex;
   flex-direction: column;
   width: 100vh;
+  height: 100vh;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .text {
@@ -46,6 +49,10 @@ main {
   box-sizing: content-box;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100vh;
   background-position: 50%, 50%;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
 }
