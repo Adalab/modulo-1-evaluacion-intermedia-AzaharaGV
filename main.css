@@ -1,0 +1,46 @@
+:root {
+  font-family: "Rubik";
+}
+
+.header-ada {
+  background-color: white;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  display: block;
+  z-index: 2;
+  box-sizing: content-box;
+}
+
+.logo {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navegator {
+  color: #4a4a4a;
+  font-size: 16px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 13px;
+}
+
+main {
+  background-color: #3cdbc0;
+  box-sizing: content-box;
+  width: 100vh;
+  margin-top: 13px;
+}
+h1 {
+  font-size: 30px;
+  color: #ffffff;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  display: block;
+  align-items: center;
+}
