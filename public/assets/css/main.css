@@ -20,57 +20,45 @@
   background-color: #CCC;
   color: #000; }
 
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem; }
-
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: #999; }
-
 :root {
   font-family: "Rubik"; }
 
 .header-ada {
-  box-sizing: border-box;
-  background-color: white;
-  width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  width: 100vw;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px; }
 
 .logo {
   box-sizing: content-box;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 50vw; }
-
-.navegator {
-  color: #4a4a4a;
-  font-size: 16px;
-  padding-bottom: 10px;
-  width: 50vw; }
+  width: 155px; }
 
 .item {
-  margin-left: 10px;
+  color: #4a4a4a;
+  width: 155px;
+  margin-top: 10px; }
+
+.link-nav1 {
   margin-right: 10px; }
 
-main {
+.link-nav2 {
+  margin-right: 10px; }
+
+.diversity {
+  box-sizing: content-box;
+  width: 100vw;
+  height: 100vh;
   background-color: #3cdbc0;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13px;
+  padding-top: 35vw; }
 
 .text {
   font-size: 30px;
-  color: #ffffff;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

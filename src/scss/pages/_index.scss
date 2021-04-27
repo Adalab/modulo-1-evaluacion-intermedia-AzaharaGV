@@ -3,44 +3,40 @@
 }
 
 .header-ada {
-  box-sizing: border-box;
-  background-color: white;
-  width: 100vw;
   display: flex;
   flex-direction: column;
+  width: 100vw;
   align-items: center;
+  margin-top: 10px;
+  font-size: $size-text-1;
 }
-
 .logo {
   box-sizing: content-box;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 50vw;
+  width: 155px;
 }
-
-.navegator {
-  color: #4a4a4a;
-  font-size: 16px;
-  padding-bottom: 10px;
-  width: 50vw;
-}
-
 .item {
-  margin-left: 10px;
+  color: $color-menu;
+  width: 155px;
+  margin-top: 10px;
+}
+.link-nav1 {
   margin-right: 10px;
 }
-
-main {
-  background-color: #3cdbc0;
-  display: flex;
-  flex-direction: column;
+.link-nav2 {
+  margin-right: 10px;
 }
-
-.text {
-  font-size: 30px;
-  color: #ffffff;
-  box-sizing: border-box;
+.diversity {
+  box-sizing: content-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: $color-bg;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 13px;
+  padding-top: 35vw;
+}
+.text {
+  font-size: $size-text-2;
+  color: $color-main;
 }
