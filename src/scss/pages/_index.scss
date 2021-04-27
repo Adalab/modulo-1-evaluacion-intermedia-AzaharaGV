@@ -7,8 +7,10 @@
   flex-direction: column;
   width: 100vw;
   align-items: center;
-  margin-top: 10px;
   font-size: $size-text-1;
+  position: fixed;
+  background-color: white;
+  top: 0;
 }
 .logo {
   box-sizing: content-box;
@@ -18,6 +20,8 @@
   color: $color-menu;
   width: 155px;
   margin-top: 10px;
+  margin-bottom: 13px;
+  text-transform: uppercase;
 }
 .link-nav1 {
   margin-right: 10px;
@@ -39,6 +43,7 @@
 .text {
   font-size: $size-text-2;
   color: $color-main;
+  text-transform: capitalize;
 }
 @media (min-width: 768px) {
   .header-ada {
