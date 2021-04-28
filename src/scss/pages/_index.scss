@@ -12,23 +12,30 @@
   background-color: white;
   top: 0;
 }
+
 .logo {
   box-sizing: content-box;
   width: 155px;
+  padding-top: 10px;
 }
+
 .item {
+  display: flex;
+  flex-direction: row;
   color: $color-menu;
   width: 155px;
   margin-top: 10px;
   margin-bottom: 13px;
   text-transform: uppercase;
 }
-.link-nav1 {
+
+.item-nav1 {
   margin-right: 10px;
 }
-.link-nav2 {
+.item-nav2 {
   margin-right: 10px;
 }
+
 .diversity {
   box-sizing: content-box;
   width: 100vw;
@@ -38,30 +45,34 @@
   flex-direction: column;
   align-items: center;
   margin-top: 13px;
-  padding-top: 35vw;
+  padding-top: 60vw;
 }
+
 .text {
   font-size: $size-text-2;
   color: $color-main;
   text-transform: capitalize;
 }
+
 @media (min-width: 768px) {
   .header-ada {
-    margin-top: 20px;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-top: 20px;
   }
 
   .logo {
     justify-items: start;
     margin-left: 30px;
+    margin-bottom: 20px;
   }
   .item {
     justify-items: end;
     margin-right: 30px;
   }
-}
 
-.text {
-  font-size: $size-text-3;
+  .text {
+    font-size: $size-text-3;
+  }
 }
